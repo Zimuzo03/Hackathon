@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="device=width-device, initial-scale=1.0">
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+    </head>
+
+    <!-- body -->
+
+    <body>
+
+        <!-- Navbar Section -->
+
+        <nav>
+            <div class="nav_bar">
+                <div class="logo"><a href="#"><span>Zim</span>uzo.</a></div>
+                <label for="check" class="check_box">
+                    <i class="fa fa-bars"></i>
+                </label>
+                <input type="checkbox" name="checkbox" id="check">
+    
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">My Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Home Section -->
+
+         <section class="home" id="home">
+            <div class="home_container">
+                <div class="content">
+                    <p class="sub_title">Hello, my name is</p>
+                    <h1 class="title">Zimuzo</h1> 
+                    <h2>And I'm a <span>Web Developer</span></h2>
+                    <div class="btns">
+                        <button class="cv">Download CV</button>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="Profile Picture.jpg" alt="Profile Picture">
+                </div>
+            </div>
+         </section>
+
+         <!--About Section  -->
+
+         <section class="about" id="about">
+            <div class="about_container">
+                <div class="row">
+                    <div class="about_col_1">
+                        <img src="About me Picture.jpg" alt="">
+                    </div>
+                    <div class="about_col_2">
+                        <h1 class="about_title">About Me</h1>
+                        <p>I am a web developer with a deep interest in creating innovative solutions.
+                            I am excited about bringing ideas to life through coding 
+                            and I am passionate about leaning new skills.
+                            I provide clean and perfect web designs and I make interactive, eye-catching
+                            and responsive websites with seamless user experiences. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <!-- My Skills Section -->
+
+          <section class="skills" id="skills">
+            <h1 class="skill_title">My Skills</h1>
+                <div class="skill_row">
+                    <div class="skill_left">
+                        
+                        <p class="skill_text">HTML - I have a strong expertise in HTML, allowing me 
+                        to create well-structured, sematic web pages. <br><br>
+                        CSS - I am good using CSS to design and produce appealing layouts that enhance
+                        user experience. <br><br>
+                        MySQL - I have a working knowledge of MySQL, enabling me interact with databases
+                        and manage data effectively.
+                        </p>
+                    </div>
+                    <div class="skill_right">
+                        <div class="bars">
+                            <div class="info">
+                                <span>HTML - </span>
+                                <span class="percent">90%</span>
+                                <div class="line_for_html"></div>
+                            </div>
+                        </div>
+
+                        <div class="bars">
+                            <div class="info">
+                                <span>CSS - </span>
+                                <span class="percent">70%</span>
+                                <div class="line_for_css"></div>
+                            </div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>MySQL - </span>
+                                <span class="percent">50%</span>
+                                <div class="line_for_mysql"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+          <!-- Projects Section -->
+
+          <section class="projects" id="projects">
+            <div class="highlight">
+                <h1 class="project_name">Projects</h1>
+                <div class="work_list">
+                    <div class="work">
+                        <img src="Blog Pictures.jpg" alt="">
+
+                        <div class="layer">
+                            <h3>Lifestyle Blog</h3>
+                            <p>A  platform where insights,experiences and tips 
+                                relating to everyday life are been shared. 
+                            </p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="Travel app.png" alt="">
+
+                        <div class="layer">
+                            <h3>Travel Booking App</h3>
+                            <p>Creating app where users can book travel services at the comfort 
+                                of their homes.
+                            </p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="Telemedicine Picture.png" alt="">
+
+                        <div class="layer">
+                            <h3>Telemedicine App</h3>
+                            <p>Creating a platform where patients can connect
+                                with healthcare providers remotely. </p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+          </section>
+
+          <!-- Contact Section -->
+
+           <section class="contact" id="contact">
+            <div class="contact_container">
+                <div class="contact_row">
+                    <div class="contact_left">
+                        <h1 class="contact_title">Contact Me</h1>
+                        <p><i class="fa fa-envelope"></i>Email Address: marizuzimuzo@gmail.com</p>
+                        <div class="social_icons">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter-square"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact_right">
+                        <form action="#">
+                            <input type="text" name="name" placeholder="Enter Your Name" required>
+                            <input type="email" name="email" placeholder="Enter Your Email Address" required>
+                            <textarea name="message" rows="5" placeholder="Type Message"></textarea>
+                            <button type="submit" class="contact_btn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Copyrights -->
+
+                <div class="copyright">
+                    <p><i class="fa-regular fa-copyright"></i> Copyright Zimuzo. All Rights Reserved</p>
+                </div>
+            </div>
+
+           </section>
+    </body>
+</html>
